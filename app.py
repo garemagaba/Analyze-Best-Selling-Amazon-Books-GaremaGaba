@@ -82,7 +82,5 @@ if not filtered_df.empty:
 else:
     st.warning("No data available for the selected filters. Please adjust your selections.")
 
-# Placeholder for main page image.
-# Using the URL provided by the user.
 main_image_url = "https://images.stockcake.com/public/6/1/7/617f8768-68bc-4c72-84ea-d426b5624796_large/books-and-blooms-stockcake.jpg"
 st.image(main_image_url, use_container_width=True)
